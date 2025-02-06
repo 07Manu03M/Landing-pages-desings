@@ -1,8 +1,78 @@
-@import url(style.css);
+@import url(variables.css);
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     background: var(--color-1);
+}
+
+.encabezado_2{
+    /* background: green;
+    padding: 10px; */
+    width: 444px;
+    height: 473px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    position: relative;
+    left: 64px;
+    top: 137px;
+}
+
+.el_titulo{
+    /* background: red;
+    padding: 10px; */
+    width: 100%;
+    height: 231px;
+}
+
+.el_titulo h1{
+    /* background: yellow;
+    padding: 10px; */
+    font-size: 59px;
+    font-family: "Avenir-Heavy";
+}
+
+.el_parrafito{
+    /* background: blue;
+    padding: 10px; */
+    width: 386px;
+    height: 144px;
+}
+
+.el_parrafito p{
+    /* background: olive;
+    padding: 10px; */
+    position: relative;
+    top: -10px;
+    font-size: 26px;
+    font-family: "Avenir-Roman";
+}
+
+.el_botonsito{
+    /* background: violet;
+    padding: 10px; */
+    width: 157px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.el_botonsito a{
+    background: var(--color-2);
+    padding: 16px;
+    width: 157px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 16px;
+    text-decoration: none;
+    text-align: none;
+    position: relative;
+    top: -10px;
+    color: var(--color-1);
+    font-family: "Avenir-Roman";
 }
