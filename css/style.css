@@ -19,8 +19,8 @@
     justify-content: space-around;
     gap: 20px;
     position: relative;
-    left: 64px;
-    top: 137px;
+    left: 50px;
+    top: 117px;
 }
 
 .el_titulo{
@@ -79,14 +79,19 @@
     font-family: "Avenir-Roman";
 }
 
-
+.noc{
+    /* background: violet;
+    padding: 10px; */
+    height: 450px;
+    
+}
 
 .caja_foto_1{
     /* background: violet; */
     width: 408px;
     /* height: 480px; */
     position: relative;
-    left: 500px;
+    left: 490px;
     top: -430px;
 }
 
@@ -98,10 +103,11 @@
 
 .caja_foto_2{
     /* background: green; */
+    padding: 10px;
     width: 408px;
-    /* height: 480px; */
+    height: 480px;
     position: relative;
-    left: 930px;
+    left: 910px;
     top: -650px;
 }
 
@@ -111,16 +117,17 @@
     /* height: 480px; */
 }
 
-.cajita_main{
+#cajita_main{
     /* background: red;
     padding: 10px; */
     width: 1316px;
-    /* height: 440px; */
+    height: 440px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
     position: relative;
-    margin-top: -520px;
+    /* margin-top: -520px; */
+    margin-bottom: 50px;
     left: 20px;
 
 }
