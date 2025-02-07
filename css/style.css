@@ -6,3 +6,17 @@
     box-sizing: border-box;
     background: var(--color-1);
 }
+
+.foto_main{
+    /* background: rebeccapurple;
+    padding: 10px; */
+}
+
+.foto_main img{
+    /* background: pink;
+    padding: 10px; */
+    width: 716px;
+    height: 932px;
+    position: relative;
+    top: 35px;
+}
