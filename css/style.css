@@ -7,9 +7,21 @@
     background: var(--color-1);
 }
 
+body {
+    font-size: 2vw; /* El tamaño de la fuente se ajusta al ancho de la ventana */
+}
+
+body{
+    width: 80%; /* Ocupa el 80% del ancho disponible */
+    max-width: 1200px; /* No más de 1200px para evitar que se expanda demasiado en pantallas grandes */
+}
+
 .foto_main{
     /* background: rebeccapurple;
     padding: 10px; */
+    width: 716px;
+    height: 932px;
+
 }
 
 .foto_main img{
@@ -19,4 +31,51 @@
     height: 932px;
     position: relative;
     top: 35px;
+    margin-right: 112px;
+}
+
+.div_caja1{
+    background: red;
+    width: 500px;
+    height: 415px;
+    display: flex;
+    position: relative;
+    left: 1000px;
+    margin-top: -850px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.div_caja1 h1{
+    background: rebeccapurple;
+    width: 500px;
+    height: 153px;
+    font-size: 64px;
+    margin-bottom: 32px;
+    font-family: "avenir_heavy";
+}
+
+
+.div_caja1 p{
+    background: forestgreen;
+    width: 500px;
+    height: 144px;
+    font-size: 26px;
+    margin-bottom: 32px;
+    font-family: "avenir_roman";
+}
+
+
+.div_caja1 a{
+    background: turquoise;
+    padding: 18px 48px;
+    width: 158px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "avenir_roman";
 }
