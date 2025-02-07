@@ -38,6 +38,7 @@
     /* background: pink;
     padding: 10px; */
     font-size: 26px;
+    font-family: "avenir_roman";
 }
 
 .div_principal a{
@@ -50,5 +51,5 @@
     align-items: center;
    font-size: 18px;
    text-decoration: none;
-   font-family: "Avenir-Roman";
+   font-family: "avenir_roman";
 }

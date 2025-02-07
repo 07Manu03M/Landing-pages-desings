@@ -6,3 +6,8 @@
     font-family: "avenir_heavy";
     src: url(../storage/font/avenir/AvenirLTStd-Heavy.otf);
 }
+
+@font-face {
+    font-family: "avenir_roman";
+    src: url(../storage/font/avenir/AvenirLTStd-Roman.otf);
+}
