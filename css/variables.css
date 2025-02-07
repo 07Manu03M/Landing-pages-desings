@@ -1,3 +1,8 @@
 :root{
     --color-1: #eee;
 }
+
+@font-face {
+    font-family: "avenir_heavy";
+    src: url(../storage/font/avenir/AvenirLTStd-Heavy.otf);
+}
