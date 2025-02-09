@@ -336,3 +336,23 @@ body{
     height: 66px;
     font-family: "Avenir-Roman";
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px; 
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: var(--color-1); 
+    border-radius: 10px;
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-3); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-4); 
+  }
