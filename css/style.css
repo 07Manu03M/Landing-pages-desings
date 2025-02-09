@@ -6,3 +6,27 @@
     box-sizing: border-box;
     background: var(--color-1);
 }
+
+body {
+    max-width: 1440px; 
+    height: 954px; 
+    margin: 0 auto; 
+    overflow-x: hidden; 
+}
+
+.section_5{
+    /* background: red;
+    padding: 5px; */
+    margin: 64px;
+    margin-bottom: 69px;
+    width: 531px;
+}
+
+.section_5 h1{
+    /* background: blue;
+    padding: 5px; */
+    font-size: 88px;
+    width: 100%;
+    height: 208px;
+    font-family: "Avenir-Heavy";
+}
