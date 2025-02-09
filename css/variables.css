@@ -1,3 +1,19 @@
 :root{
     --color-1: #eee;
+    --color-2: #AB2706;
+}
+
+@font-face {
+    font-family: "worksans-medium";
+    src: url(../storage/font/worksans/WorkSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "worksans-light";
+    src: url(../storage/font/worksans/WorkSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "worksans-bold";
+    src: url(../storage/font/worksans/WorkSans-Bold.ttf);
 }
