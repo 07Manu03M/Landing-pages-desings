@@ -1,4 +1,4 @@
-@import url(style.css);
+@import url(variables.css);
 
 *{
     padding: 0;
@@ -6,3 +6,92 @@
     box-sizing: border-box;
     background: var(--color-1);
 }
+
+body{
+    max-width: 1440px; 
+    height: 993px; 
+    margin: 0 auto; 
+    overflow-x: hidden;
+}
+
+.div_loguito6{
+    /* background: blue;
+    padding: 5px; */
+    width: 101.05px;
+    margin: 64.75px;
+}
+
+.div_loguito6 img{
+    /* background: green;
+    padding: 5px; */
+    width: 100%;   
+}
+
+.lacaja_masmain_delas_main{
+    /* background: red;
+    padding: 5px; */
+    width: 653px;
+    height: 460px;
+    margin-left: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 32px;
+    margin-bottom: 70px;
+}
+
+.cajitade_h1{
+    /* background: blue;
+    padding: 5px; */
+    width: 629px;
+}
+
+.cajitade_h1 h1{
+    /* background: blueviolet;
+    padding: 5px; */
+    font-size: 64px;
+    font-family: "Playfair-bold";
+}
+
+.cajitade_p{
+    /* background: pink;
+    padding: 5px; */
+    width: 629px;
+}
+
+.cajitade_p p{
+    /* background: green;
+    padding: 5px; */
+    font-size: 24px;
+    font-family: "worksans-regular";
+}
+
+.cajitade_botones{
+    /* background: yellow;
+    padding: 5px; */
+    width: 650px;
+    display: flex;
+    gap: 32px;
+}
+
+.boton_negro{
+    background: var(--color-3);
+    padding: 24px 48px;
+    font-size: 24px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: var(--color-2);
+    border: 2px solid black;
+    font-family: "worksans-regular";
+}
+
+.boton_blanco{
+    background: var(--color-2);
+    padding: 24px 48px;
+    font-size: 24px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: var(--color-3);
+    font-family: "worksans-regular";
+}
+
