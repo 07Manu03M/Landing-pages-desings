@@ -4,6 +4,9 @@
     --color-3: #E5B94B;
     --color-4: #fff;
     --color-5: #000;
+    /* Barra de scroll */
+    --color-6: #888;
+    --color-7: #555;
 }
 
 @font-face {
