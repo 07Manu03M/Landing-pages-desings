@@ -95,3 +95,178 @@ body{
     font-family: "worksans-regular";
 }
 
+.section_icons{
+    /* background: blue; */
+    padding: 24px;
+    border-radius: 24px;
+    width: 652px;
+    height: 118px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    left: 40px;
+    gap: 80px;
+    border: 2px solid black;
+}
+
+.icon_1{
+    /* background: red;
+    padding: 5px; */
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    
+}
+
+.icon_1 img{
+    /* background: rebeccapurple;
+    padding: 5px; */
+    height: 24px;
+    width: 24px;
+}
+
+.icon_1 p{
+    /* background: yellow;
+    padding: 5px; */
+    font-size: 16px;
+    font-family: "worksans-regular";
+}
+
+.icon_2{
+    /* background: red;
+    padding: 5px; */
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.icon_2 img{
+    /* background: rebeccapurple;
+    padding: 5px; */
+    height: 24px;
+    width: 24px;
+}
+
+.icon_2 p{
+    /* background: yellow;
+    padding: 5px; */
+    font-size: 16px;
+    font-family: "worksans-regular";
+}
+
+.icon_3{
+    /* background: red;
+    padding: 5px; */
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.icon_3 img{
+    /* background: rebeccapurple;
+    padding: 5px; */
+    height: 24px;
+    width: 24px;
+}
+
+.icon_3 p{
+    /* background: yellow;
+    padding: 5px; */
+    width: 100%;
+    font-size: 16px;
+    font-family: "worksans-regular";
+}
+
+.icon_4{
+    /* background: red;
+    padding: 5px; */
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.icon_4 img{
+    /* background: rebeccapurple;
+    padding: 5px; */
+    height: 24px;
+    width: 24px;
+}
+
+.icon_4 p{
+    /* background: yellow;
+    padding: 5px; */
+    font-size: 16px;
+    font-family: "worksans-regular";
+}
+
+.section_fotos{
+    background: red;
+    /* padding: 5px; */
+    width: 635.31px;
+    height: 10px;
+    position: relative;
+    left: 800px;
+    top: -107svh;
+}
+
+.estrellita{
+    /* background: green;
+    padding: 5px; */
+    width: 135.5px;
+    
+}
+
+.estrellita img{
+    background: transparent;
+    /* padding: 5px; */
+    width: 100%; 
+    z-index: 2; 
+    position: relative;
+    top: -570px;
+}
+
+.izquierda_linea{
+    /* background: yellow;
+    padding: 5px; */
+}
+
+.izquierda_linea img{
+    background: transparent;
+    /* padding: 5px; */
+    z-index: 1;
+    position: relative;
+    top: 38px;
+    left: 68px;
+}
+
+.derecha_linea{
+    z-index: 4;
+    position: relative;
+    top: -400px;
+    left: 350px;
+}
+
+.estrella_4{
+    background: transparent;
+    z-index: 8;
+    position: relative;
+    top: -1250px;
+    left: 480px;
+}
+
+.foto_principal{
+    z-index: 7;
+    position: relative;
+    top: -1090px;
+    left: 120px;
+}
+
+.estrella_5{
+    background: transparent;
+    z-index: 8;
+    width: 75px;
+    position: relative;
+    top: -1800px;
+    left: 170px;
+}
