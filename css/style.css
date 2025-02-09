@@ -18,7 +18,7 @@ body {
     /* background: red;
     padding: 5px; */
     margin: 64px;
-    margin-bottom: 69px;
+    margin-bottom: 120px;
     width: 531px;
 }
 
@@ -30,3 +30,119 @@ body {
     height: 208px;
     font-family: "Avenir-Heavy";
 }
+
+.cajita_laremain{
+    /* background: orange;
+    padding: 5px; */
+    margin: 64px;
+    margin-right: 64px;
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+    /* width: 1200px;
+    height: 549px; */
+}
+
+/* cajita 1 */
+
+.cajita_laremain1{
+    /* background: blue;
+    padding: 5px; */
+    width: 400px;
+    height: 549px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 26px;
+}
+
+.cajita_laremain1 h1{
+    /* background: blueviolet;
+    padding: 5px; */
+    font-size: 40px;
+    color: var(--color-2);
+    font-family: "Avenir-Heavy";
+}
+
+.cajita_laremain1 p{
+    /* background: green;
+    padding: 5px; */
+    font-size: 24px;
+    font-family: "Avenir-Roman";
+}
+
+.cajita_laremain1 img{
+    /* background: yellow;
+    padding: 5px; */
+    width: 100%;
+}
+
+/* cajita 2 */
+
+.cajita_laremain2{
+    /* background: blue;
+    padding: 5px; */
+    width: 400px;
+    height: 549px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 26px;
+}
+
+.cajita_laremain2 h1{
+    /* background: blueviolet;
+    padding: 5px; */
+    font-size: 40px;
+    color: var(--color-2);
+    font-family: "Avenir-Heavy";
+    
+}
+
+.cajita_laremain2 p{
+    /* background: green;
+    padding: 5px; */
+    font-size: 24px;
+    font-family: "Avenir-Roman";
+}
+
+.cajita_laremain2 img{
+    /* background: yellow;
+    padding: 5px; */
+    width: 100%;
+}
+
+/* cajita 3 */
+
+.cajita_laremain3{
+    /* background: blue;
+    padding: 5px; */
+    width: 400px;
+    height: 549px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 26px;
+}
+
+.cajita_laremain3 h1{
+    /* background: blueviolet;
+    padding: 5px; */
+    font-size: 40px;
+    color: var(--color-2);
+    font-family: "Avenir-Heavy";
+}
+
+.cajita_laremain3 p{
+    /* background: green;
+    padding: 5px; */
+    font-size: 24px;
+    font-family: "Avenir-Roman";
+}
+
+.cajita_laremain3 img{
+    /* background: yellow;
+    padding: 5px; */
+    width: 100%;
+}  
