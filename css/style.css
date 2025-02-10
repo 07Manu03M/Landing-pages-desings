@@ -38,6 +38,7 @@ body{
 .encabezado_9 p{
    background: transparent;
    font-size: 24px;
+   width: 655px;
    color: var(--color-4);
    z-index: 4;
    font-family: "popins-regular";
@@ -209,3 +210,22 @@ body{
     width: 500.4px;
 }
 
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px; 
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: var(--color-3); 
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-4); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-10); 
+  }
