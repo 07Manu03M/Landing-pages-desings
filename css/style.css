@@ -4,5 +4,177 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: var(--color-1);
+    background: linear-gradient(45deg, var(--color-2), var(--color-3) );
 }
+
+body{
+    max-width: 1440px; 
+    height: 926px; 
+    margin: 0 auto; 
+    overflow-x: hidden;
+}
+
+.encabezado_9{
+    background: transparent;
+    width: 765px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 16px;
+    margin-top: 64px;
+    margin-left: 295px;
+}
+
+.encabezado_9 h1{
+    background: transparent;
+    font-size: 88px;
+    color: var(--color-4);
+    font-family: "popins-bold";
+}
+
+.encabezado_9 p{
+   background: transparent;
+   font-size: 24px;
+   color: var(--color-4);
+   font-family: "popins-regular";
+}
+
+.encabezado_9 a{
+    background: var(--color-4);
+    color: var(--color-5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 48px;
+    font-size: 24px;
+    width: 182px;
+    height: 66px;
+    text-decoration: none;
+    border-radius: 36px;
+    font-family: "popins-regular";
+}
+
+.caja_borde {
+    background: linear-gradient(45deg, var(--color-7), var(--color-6) );
+    padding: 5px;
+    border-radius: 144px;
+    width: 948px;
+    height: 272px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 241px;
+    left: 528px;
+}
+.sub_caja {
+    background: transparent;
+    padding: 5px;
+    width: 772px;
+    height: 192px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -20px;
+}
+.caja_1 {
+    background: transparent;
+    padding: 5px;
+    width: 204px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.caja_1 h2{
+    background: transparent;
+    padding: 5px;
+    /* width: 38px; */
+    height: 36px;
+    font-size: 24px;
+    font-family: "popins-bold";
+}
+.caja_1 img{
+    /* background: aqua;
+    padding: 5px; */
+    width: 38px;
+    height: 4px;
+}
+.caja_1 p{
+    background: transparent;
+    padding: 5px;
+    /* width: 204px; */
+    height: 120px;
+    font-size: 16px;
+    font-family: "popins-regular";
+}
+.caja_2 {
+    background: transparent;
+    padding: 5px;
+    width: 204px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.caja_2 h2{
+    background: transparent;
+    padding: 5px;
+    /* width: 38px; */
+    height: 36px;
+    font-size: 24px;
+    font-family: "popins-bold";
+}
+.caja_2 img{
+    /* background: aquamarine;
+    padding: 5px; */
+    width: 38px;
+    height: 4px;
+}
+.caja_2 p{
+    background: transparent;
+    padding: 5px;
+    /* width: 204px; */
+    height: 120px;
+    font-size: 16px;
+    font-family: "popins-regular";
+}
+.caja_3 {
+    background: transparent;
+    padding: 5px;
+    width: 204px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.caja_3 h2{
+    background: transparent;
+    padding: 5px;
+    /* width: 38px; */
+    height: 36px;
+    font-size: 24px;
+    font-family: "popins-bold";
+}
+.caja_3 img{
+    /* background: tomato;
+    padding: 5px; */
+    width: 38px;
+    height: 4px;
+}
+.caja_3 p{
+    background: transparent;
+    padding: 5px;
+    /* width: 204px; */
+    height: 120px;
+    font-size: 16px;
+    font-family: "popins-regular";
+}
+
+.fotounita {
+    background: rebeccapurple;
+    padding: 5px;
+}
+.fotosegundita {
+    background: gold;
+    padding: 5px;
+}
+
