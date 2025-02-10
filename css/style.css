@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: linear-gradient(45deg, var(--color-2), var(--color-3) );
+    background: linear-gradient(130deg, var(--color-2), var(--color-3) );
 }
 
 body{
@@ -21,15 +21,17 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 16px;
-    margin-top: 64px;
-    margin-left: 295px;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 195px;
+    z-index: 4;
 }
 
 .encabezado_9 h1{
     background: transparent;
     font-size: 88px;
     color: var(--color-4);
+    z-index: 4;
     font-family: "popins-bold";
 }
 
@@ -37,6 +39,7 @@ body{
    background: transparent;
    font-size: 24px;
    color: var(--color-4);
+   z-index: 4;
    font-family: "popins-regular";
 }
 
@@ -59,14 +62,15 @@ body{
     background: linear-gradient(45deg, var(--color-7), var(--color-6) );
     padding: 5px;
     border-radius: 144px;
-    width: 948px;
+    width: 848px;
     height: 272px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     top: 241px;
-    left: 528px;
+    left: 410px;
+    z-index: 2;
 }
 .sub_caja {
     background: transparent;
@@ -170,11 +174,38 @@ body{
 }
 
 .fotounita {
-    background: rebeccapurple;
+    /* background: rebeccapurple; */
+    background: transparent; 
     padding: 5px;
+    width: 642px;
+    height: 508px;
+    position: relative;
+    bottom:201px;
+    right: 40px;
+    z-index: 1;
+    
 }
+
+.fotounita img{ 
+    background: transparent; 
+    width: 642px;
+    height: 540px;
+    
+}
+
 .fotosegundita {
-    background: gold;
+    background: transparent;
     padding: 5px;
+    width: 500.4px;
+    height: 512px;
+    position: relative;
+    bottom: 1160px;
+    left:730px;
+    z-index: 3;
+}
+
+.fotosegundita img{
+    background: transparent;
+    width: 500.4px;
 }
 
