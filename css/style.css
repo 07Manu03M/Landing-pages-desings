@@ -81,49 +81,98 @@ body{
 }
 
 .caja_original {
-    background: red;
-    width: 1312px;
+    background: var(--color-2);
+    border-radius: 40px;
+    width: 1212px;
     height: 298px;
     position: relative;
     bottom: 400px;
+    margin-left: 34px;
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .subcajita {
-    background: brown;
+    background: var(--color-2);
+    width: 1184px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
 }
 .caja1 {
-    background: rebeccapurple;
+    background: var(--color-2);
+    width: 316px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .caja1 img{
-    background: blue;
+    background: var(--color-2);
+    width: 24px;
+    height: 24px;
 }
 .caja1 h4{
-    background: palegreen;
+    background: var(--color-2);
+    color: var(--color-1);
+    font-size: 32px;
+    font-family: "avenir-heavy";
 }
 .caja1 p{
-    background: pink;
+    background: var(--color-2);
+    color: var(--color-1);
+    font-size: 24px;
+    font-family: "Avenir-Book";
 }
 .caja2 {
-    background: paleturquoise;
+    background: var(--color-2);
+    width: 316px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .caja2 img{
-    background: yellow;
+    background: var(--color-2);
+    width: 24px;
+    height: 24px;
 }
 .caja2 h4{
-    background: rgb(85, 126, 23);
+    background: var(--color-2);
+    color: var(--color-1);
+    font-size: 32px;
+    font-family: "avenir-heavy";
 }
 .caja2 p{
-    background: aqua;
+    background: var(--color-2);
+    color: var(--color-1);
+    font-size: 24px;
+    font-family: "Avenir-Book";
 }
 .caja3 {
-    background: indianred;
+    background: var(--color-2);
+    width: 316px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .caja3 img{
-    background: teal;
+    background: var(--color-2);
+    width: 24px;
+    height: 24px;
 }
 .caja3 h4{
-    background: plum;
+    background: var(--color-2);
+    color: var(--color-1);
+    font-size: 32px;
+    font-family: "avenir-heavy";
 }
 .caja3 p{
-    background: silver;
+    background: var(--color-2);
+    color: var(--color-1);
+    font-size: 24px;
+    font-family: "Avenir-Book";
 }
 

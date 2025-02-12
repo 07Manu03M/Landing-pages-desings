@@ -17,3 +17,8 @@
     font-family: "popping-regular";
     src: url(../storage/font/poppins/Poppins-Regular.ttf);
 }
+
+@font-face {
+    font-family: "Avenir-Book";
+    src: url(../storage/font/avenir/AvenirLTStd-Book.otf);
+}
