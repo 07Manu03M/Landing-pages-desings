@@ -23,7 +23,8 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin: 169px 859px 175px 132px;
+    margin-top: 240px;
+    margin-left: 100px;
 }
 .titulo_rosa {
     /* background: blue;
@@ -80,17 +81,22 @@ body{
     font-family: "poppins-regular";
 }
 
-/* .caja_imagenes{
-    background: blueviolet;
-    padding: 5px;
+.caja_imagenes{
+    /* background: blueviolet;
+    padding: 5px; */
     width: 742px;
     height: 792px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 14px;
+    position: relative;
+    bottom: 660px;
+    left: 600px;
 }
 
 .caja_imagenes img{
-    background: red;
+    /* background: red; */
     flex-direction: column;
     display: flex;
     flex-direction: column;
@@ -98,30 +104,34 @@ body{
 }
 
 .ilera_1{
-    background: greenyellow;
-    display: flex;
+    /* background: greenyellow; */
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
 }
 
 .ilera_2{
-    background: cadetblue;
-    display: flex;
+    /* background: cadetblue; */
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
 }
 
 .ilera_3{
-    background: orangered;
-    display: flex;
+    /* background: orangered; */
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
 }
 
 .ilera_4{
-    background: olive;
-    display: flex;
+    /* background: olive; */
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
 }
- */
+
