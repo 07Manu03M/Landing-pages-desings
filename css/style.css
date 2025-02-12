@@ -4,5 +4,124 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: var(--color-1);
+    background: var(--color-5);
 }
+
+body{
+    max-width: 1440px; 
+    height: 926px; 
+    margin: 0 auto; 
+    overflow-x: hidden;
+}
+
+
+.principal_lateral {
+    /* background: pink;
+    padding: 5px; */
+    width: 449px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 169px 859px 175px 132px;
+}
+.titulo_rosa {
+    /* background: blue;
+    padding: 5px; */
+}
+.titulo_rosa h1{
+    /* background: rebeccapurple;
+    padding: 5px; */
+    font-size: 70px;
+    font-family: "Poppins-bold";
+    color: var(--color-8);
+}
+.titulo_celeste {
+    /* background: red;
+    padding: 5px; */
+}
+.titulo_celeste h1{
+    /* background: orange;
+    padding: 5px; */
+    font-size: 70px;
+    font-family: "Poppins-bold";
+    color: var(--color-7);
+}
+.titulo_aqua {
+    /* background: orchid;
+    padding: 5px; */
+}
+.titulo_aqua h1{
+    /* background: yellow; */
+    padding: 5px;
+    font-size: 70px;
+    font-family: "Poppins-bold";
+    color: var(--color-6);
+}
+.principal_lateral p{
+    /* background: cornflowerblue; */
+    color: var(--color-3);
+    padding: 5px;
+    font-size: 23px;
+    font-family: "poppins-regular";
+}
+.principal_lateral a{
+    background: var(--color-3);
+    color: var(--color-4);
+    padding: 24px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    height: 66px;
+    width: 182px;
+    text-decoration: none;
+    border-radius: 36px;
+    font-family: "poppins-regular";
+}
+
+/* .caja_imagenes{
+    background: blueviolet;
+    padding: 5px;
+    width: 742px;
+    height: 792px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caja_imagenes img{
+    background: red;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ilera_1{
+    background: greenyellow;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.ilera_2{
+    background: cadetblue;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.ilera_3{
+    background: orangered;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.ilera_4{
+    background: olive;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+ */
