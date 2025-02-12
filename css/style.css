@@ -6,3 +6,51 @@
     box-sizing: border-box;
     background: var(--color-1);
 }
+
+body{
+    max-width: 1440px; 
+    height: 1024px; 
+    margin: 0 auto; 
+    overflow-x: hidden;
+}
+
+.izquierda_superior{
+    /* background: red;
+    padding: 5px; */
+    width: 637px;
+    height: 414px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 144px;
+    margin-left: 65px;
+}
+
+.izquierda_superior h1{
+    /* background: rebeccapurple;
+    padding: 5px; */
+    font-size: 72px;
+    font-family: "avenir-heavy";
+}
+
+.izquierda_superior p{
+    /* background: blue;
+    padding: 5px; */
+    font-size: 26px;
+    font-family: "avenir-roman";
+}
+
+.izquierda_superior a{
+    background: var(--color-2);
+    color: var(--color-1);
+    padding: 24px 48px;
+    width: 182px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 36px;
+    font-size: 24px;
+    font-family: "popping-regular";
+}

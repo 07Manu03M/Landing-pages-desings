@@ -1,3 +1,19 @@
 :root{
-    --color-1: #eee;
+    --color-1: #fff;
+    --color-2: #252525;
+}
+
+@font-face {
+    font-family: "avenir-heavy";
+    src: url(../storage/font/avenir/AvenirLTStd-Heavy.otf);
+}
+
+@font-face {
+    font-family: "avenir-roman";
+    src: url(../storage/font/avenir/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+    font-family: "popping-regular";
+    src: url(../storage/font/poppins/Poppins-Regular.ttf);
 }
