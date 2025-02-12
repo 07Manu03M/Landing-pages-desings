@@ -9,7 +9,7 @@
 
 body{
     max-width: 1440px; 
-    height: 1024px; 
+    height: 900px; 
     margin: 0 auto; 
     overflow-x: hidden;
 }
@@ -54,3 +54,76 @@ body{
     font-size: 24px;
     font-family: "popping-regular";
 }
+
+.caja_de_fotos {
+    /* background: red; */
+    width: 547.67px;
+    height: 518.66px;
+    position: relative;
+    left: 700px;
+    bottom: 470px;
+}
+.foto_1 {
+    /* background: blueviolet; */
+    width: 322px;
+    height: 384px;
+    z-index: 1;
+    position: relative;
+}
+.foto_2 {
+    background: transparent;
+    width: 322px;
+    height: 384px;
+    z-index: 2;
+    position: relative;
+    left: 225px;
+    bottom: 270px;
+}
+
+.caja_original {
+    background: red;
+    width: 1312px;
+    height: 298px;
+    position: relative;
+    bottom: 400px;
+}
+.subcajita {
+    background: brown;
+}
+.caja1 {
+    background: rebeccapurple;
+}
+.caja1 img{
+    background: blue;
+}
+.caja1 h4{
+    background: palegreen;
+}
+.caja1 p{
+    background: pink;
+}
+.caja2 {
+    background: paleturquoise;
+}
+.caja2 img{
+    background: yellow;
+}
+.caja2 h4{
+    background: rgb(85, 126, 23);
+}
+.caja2 p{
+    background: aqua;
+}
+.caja3 {
+    background: indianred;
+}
+.caja3 img{
+    background: teal;
+}
+.caja3 h4{
+    background: plum;
+}
+.caja3 p{
+    background: silver;
+}
+
