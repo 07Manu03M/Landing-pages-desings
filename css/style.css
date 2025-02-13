@@ -6,3 +6,48 @@
     box-sizing: border-box;
     background: var(--color-1);
 }
+
+body{
+    max-width: 1440px; 
+    height: 993px; 
+    margin: 0 auto; 
+    overflow-x: hidden;
+}
+
+.titulo_lateral{
+    /* background: blue; */
+    width: 568px;
+    height: 298px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.titulo_lateral h1{
+    /* background: blueviolet; */
+    font-size: 64px;
+    color: var(--color-2);
+    font-family: "popins-bold";
+}
+.titulo_lateral p{
+    /* background: pink; */
+    font-size: 24px;
+    color: var(--color-2);
+    font-family: "popins-light";
+}
+.titulo_lateral a{
+    background: var(--color-3);
+    color: var(--color-2);
+    padding: 30px 40px;
+    width: 265px;
+    height: 78px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 36px;
+    font-size: 20px;
+    font-family: "popins-regular";
+}
