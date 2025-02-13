@@ -9,7 +9,7 @@
 
 body{
     max-width: 1440px; 
-    height: 1024px; 
+    height: 900px; 
     margin: 0 auto; 
     overflow-x: hidden;
 }
@@ -137,22 +137,42 @@ body{
 }
 
 .cajatexto1 {
-    background: red;
+    width: 434px;
+    height: 104px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    bottom: 2340px;
+    left: 40px;
 }
 .cajatexto1 h3{
-    background: yellow;
+    color: var(--color-3);
+    font-size: 24px;
+    font-family: "times-bold";
 }
 .cajatexto1 p{
-    background: pink;
+    font-size: 24px;
+    font-family: "times-regular";
 }
 .cajatexto2 {
-    background: greenyellow;
+    width: 434px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 1660px;
+    left: 850px;
 }
 .cajatexto2 h3{
-    background: grey;
+    color: var(--color-3);
+    font-size: 24px;
+    font-family: "times-bold";
 }
 .cajatexto2 p{
-    background: purple;
+    font-size: 24px;
+    font-family: "times-regular";
 }
 
 

@@ -1,11 +1,17 @@
 :root{
     --color-1: #fff;
     --color-2: #252525;
+    --color-3: #25252567;
 }
 
 @font-face {
     font-family: "times-regular";
     src: url(../storage/font/times/Typography\ Times\ Regular.ttf);
+}
+
+@font-face {
+    font-family: "times-bold";
+    src: url(../storage/font/times/Typography\ Times\ Bold.ttf);
 }
 
 @font-face {
