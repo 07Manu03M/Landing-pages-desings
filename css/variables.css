@@ -2,11 +2,17 @@
     --color-1: #eee;
     --color-2: #2C1001;
     --color-3: #FFDE81;
+    --color-4: #49342F;
 }
 
 @font-face {
     font-family: "popins-bold";
     src: url(../storage/font/poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "popins-bold";
+    src: url(../storage/font/poppins/Poppins-SemiBold.ttf);
 }
 
 @font-face {
