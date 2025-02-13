@@ -6,13 +6,7 @@
     box-sizing: border-box;
 }
 
-header{
-}
-body {
-    font-family: "heavy", sans-serif;
-}
-
-.div_menu{
+.menusito{
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -25,20 +19,20 @@ body {
 
 }
 
-.div_menu h1{
+.menusito h1{
     color: #252525;
     display: flex;
     justify-content: center;
     font-size: 60px;
 }
-.div_menu p{
+.menusito p{
     color: #252525cc;
     margin-top: 20px;
     display: flex;
     justify-content: center;
     font-size: 25px;
 }
-.div_menu button{
+.menusito button{
     color: aliceblue;
     width: 27%;
     height: 55px;
@@ -49,4 +43,27 @@ body {
     justify-content: center;
     font-size: 18px;
     margin-top: 50px;
+}
+
+.imaginitas{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 0%;
+}
+.imaginitas2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.imaginitas img{
+    width: 280px;
+}
+
+.imaginitas2 img{
+    width: 280px;
 }
