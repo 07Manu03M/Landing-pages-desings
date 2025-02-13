@@ -49,23 +49,27 @@ body{
     font-family: "poppin-regular";
 }
 
-/* .caja_inferior_izquierda {
-    background: red;
+.caja_inferior_izquierda {
+    /* background: red; */
     width: 373px;
     height: 364px;
+    margin-top: 25px;
+    margin-left: 64px;
 
 }
 .img1 {
-    background: blue;
+    /* background: blue; */
     width: 176px;
     height: 298px;
     position: relative;
     top: 66px;
 }
 .img2 {
-    background: blueviolet;
+    /* background: blueviolet; */
     width: 176px;
     height: 298px;
     position: relative;
     left: 20px;
-} */
+}
+
+
