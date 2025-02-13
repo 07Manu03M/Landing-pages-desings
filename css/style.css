@@ -54,6 +54,7 @@ body {
 }
 
 .cajita_fotos {
+    background: transparent;
     width: 880px;
     height: 850px;
     position: relative;
@@ -127,6 +128,30 @@ body {
     position: relative;
     bottom: 130px;
     right: 200px;
+}
+
+.caja_delogo{
+   /* background: rgb(0, 163, 0); */
+   width: 600px;
+   height: 122px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   position: relative;
+   bottom: 1420px;
+   left: 670px;
+}
+.caja_delogo img{
+   /* background: blue;  */
+   width: 70px;
+   height: 70px;
+   display: flex;
+}
+.caja_delogo p{
+   /* background: blueviolet; */
+   width: 500px;
+   font-size: 20px;
+   font-family: "Aevnir-Roman";
 }
 
 
