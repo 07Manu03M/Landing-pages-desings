@@ -1,6 +1,9 @@
 :root{
     --color-1: #fff;
     --color-2: #457D61;
+    /* Barra de scroll */
+    --color-3: #888;
+    --color-4: #555;
 }
 
 @font-face {
