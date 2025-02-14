@@ -1,3 +1,25 @@
 :root{
-    --color-1: #eee;
+    --color-1: #fff;
+    --color-2: #63E1E1;
+    --color-3: #000;
+    --color-4: rgba(0, 0, 0, 0.714);
+    --color-5: rgba(0, 0, 0, 0.137);
+    --color-gradient-1: #09212C;
+    --color-gradient-2: #043E49;
+    --banner-: url(../storage/img/AI\ image\ -\ OpenAI.svg);
+}
+
+@font-face {
+    font-family: "avenir-heavy";
+    src: url(../storage/font/avenir/AvenirLTStd-Heavy.otf);
+}
+
+@font-face {
+    font-family: "Avenir-roman";
+    src: url(../storage/font/avenir/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+    font-family: "popins-regular";
+    src: url(../storage/font/poppins/Poppins-Regular.ttf);
 }

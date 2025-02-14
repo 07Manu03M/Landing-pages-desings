@@ -4,5 +4,237 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: var(--color-1);
+    background: linear-gradient(var(--color-gradient-1), var(--color-gradient-2) 100%);
+}
+
+body{
+    max-width: 1440px; 
+    height: 1024px; 
+    margin: 0 auto; 
+    overflow-x: hidden;
+}
+
+main{
+    background-image: var(--banner-);
+    width: 1024px;
+    height: 1024px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 320px;
+    top: 5px;
+    z-index: 1;
+}
+
+.cajita_princi{
+    background: transparent;
+    height: 458px;
+    width: 664px;
+    position: relative;
+    bottom: 770px;
+    margin-left: 30px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.cajita_fondo {
+    border-radius: 24px;
+    position: absolute;
+    inset: 0; 
+    background: linear-gradient(130deg, var(--color-4), var(--color-5));
+    backdrop-filter: blur(4px);
+    z-index: -1; 
+}
+
+.sub_cajita{
+    background: transparent;
+    width: 572px;
+    height: 408px;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    gap: 35px;
+}
+.sub_cajita img{
+    background: transparent;
+    width: 80px;
+    z-index: 4;
+    height: 16px;
+}
+
+.sub_cajita h1{
+    background: transparent;
+    font-size: 60px;
+    z-index: 5;
+    font-family: "avenir-heavy";
+    color: var(--color-1);
+}
+.sub_cajita p{
+    background: transparent;
+    z-index: 6;
+    font-size: 22px;
+    color: var(--color-1);
+    font-family: "Avenir-roman";
+}
+
+.sub_cajita a{
+    background: var(--color-2);
+    color: var(--color-3);
+    z-index: 7;
+    padding: 24px 48px;
+    width: 182px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 36px;
+    font-size: 20px;
+    font-family: "popins-regular";
+}
+
+.div_princ {
+    background: transparent;
+    width: 1290px;
+    height: 171px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 660px;
+    left: 27px;
+    z-index: 2;
+}
+.div_difu {
+    border-radius: 24px;
+    border: 2px solid var(--color-1);
+    position: absolute;
+    inset: 0; 
+    background: linear-gradient(130deg, var(--color-4), var(--color-5));
+    backdrop-filter: blur(4px);
+    z-index: -1; 
+}
+/* caja 1 */
+.box_1 {
+    background: transparent;
+    width: 231px;
+    height: 123px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box_1 img{
+    background: transparent;
+    width: 24px;
+    height: 24px;
+}
+.box_1 h4{
+    background: transparent;
+    width: 82px;
+    height: 33px;
+    font-size: 24px;
+    color: var(--color-1);
+    font-family: "avenir-heavy";
+}
+.box_1 p{
+    background: transparent;
+    width: 231px;
+    height: 50px;
+    font-size: 18px;
+    color: var(--color-1);
+    font-family: "Avenir-roman";
+
+}
+/* caja 2 */
+.box_2 {
+    background: transparent;
+    width: 231px;
+    height: 123px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box_2 img{
+    background: transparent;
+    width: 24px;
+    height: 24px;
+}
+.box_2 h4{
+    background: transparent;
+    width: 82px;
+    height: 33px;
+    font-size: 24px;
+    color: var(--color-1);
+    font-family: "avenir-heavy";
+}
+.box_2 p{
+    background: transparent;
+    width: 231px;
+    height: 50px;
+    font-size: 18px;
+    color: var(--color-1);
+    font-family: "Avenir-roman";
+}
+/* caja 3 */
+.box_3 {
+    background: transparent;
+    width: 231px;
+    height: 123px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box_3 img{
+    background: transparent;
+    width: 24px;
+    height: 24px;
+}
+.box_3 h4{
+    background: transparent;
+    width: 82px;
+    height: 33px;
+    font-size: 24px;
+    color: var(--color-1);
+    font-family: "avenir-heavy";
+}
+.box_3 p{
+    background: transparent;
+    width: 231px;
+    height: 50px;
+    font-size: 18px;
+    color: var(--color-1);
+    font-family: "Avenir-roman";
+}
+/* caja 4 */
+.box_4 {
+    background: transparent;
+    width: 231px;
+    height: 123px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box_4 img{
+    background: transparent;
+    width: 24px;
+    height: 24px;
+}
+.box_4 h4{
+    background: transparent;
+    width: 82px;
+    height: 33px;
+    font-size: 24px;
+    color: var(--color-1);
+    font-family: "avenir-heavy";
+}
+.box_4 p{
+    background: transparent;
+    width: 231px;
+    height: 50px;
+    font-size: 18px;
+    color: var(--color-1);
+    font-family: "Avenir-roman";
 }
