@@ -72,4 +72,85 @@ body{
     left: 20px;
 }
 
+.big_photo{
+    /* background: yellow; */
+    width: 415px;
+    height: 702px;
+    position: relative;
+    bottom: 800px;
+    margin-left: 450px;
+    
+}
+
+.big_photo img{
+    /* background: yellow; */
+}
+
+.caja_superio_derecha{
+    /* background: red; */
+    width: 392px;
+    height: 421px;
+    position: relative;
+    bottom: 1600px;
+    left: 870px;
+}
+
+.img3{
+    /* background: rebeccapurple; */
+    width: 184px;
+    height: 316px;
+}
+
+.img4{
+    /* background: gold; */
+    width: 184px;
+    height: 316px;
+    position: relative;
+    left: 20px;
+    top: 105px;
+}
+
+.caja_inferior_derecha{
+    /* background: blue; */
+    width: 280px;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    bottom: 1550px;
+    left: 920px;
+}
+
+.caja_inferior_derecha p{
+    /* background: blueviolet; */
+    font-size: 24px;
+    font-family: "time-regular";
+}
+
+.caja_inferior_derecha h2{
+    /* background: red; */
+    font-size: 64px;
+    font-family: "time-regular";
+}
+
+.cja_imagenes {
+    background: transparent;
+    width: 170px;
+    position: relative;
+    bottom: 2000px;
+    left: 570px;
+}
+.ft1 {
+    /* background: blue; */
+    position: relative;
+    bottom: 350px;
+    right: 200px;
+}
+.ft2 {
+    /* background: violet; */
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+}
 
