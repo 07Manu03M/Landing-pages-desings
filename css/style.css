@@ -20,7 +20,7 @@ main{
     height: 1024px;
     background-repeat: no-repeat;
     position: relative;
-    left: 320px;
+    left: 330px;
     top: 5px;
     z-index: 1;
 }
@@ -238,3 +238,22 @@ main{
     color: var(--color-1);
     font-family: "Avenir-roman";
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px; 
+  }
+
+  ::-webkit-scrollbar-track {
+    background: linear-gradient(var(--color-gradient-1), var(--color-gradient-2) 100%);
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-7); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-8); 
+  }

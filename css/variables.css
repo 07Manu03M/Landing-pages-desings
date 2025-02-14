@@ -4,6 +4,9 @@
     --color-3: #000;
     --color-4: rgba(0, 0, 0, 0.714);
     --color-5: rgba(0, 0, 0, 0.137);
+     /* Barra de scroll */
+     --color-7: #888;
+     --color-8: #555;
     --color-gradient-1: #09212C;
     --color-gradient-2: #043E49;
     --banner-: url(../storage/img/AI\ image\ -\ OpenAI.svg);
