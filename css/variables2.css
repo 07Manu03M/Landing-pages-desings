@@ -1,0 +1,18 @@
+:root{
+    --color-1: #eee;
+    --color-2: #252525;
+    --color-3: hsla(0, 0%, 15%, 0.253);
+    /* Barra de scroll */
+    --color-3: #888;
+    --color-4: #555;
+}
+
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url(../storage/font/avenir/AvenirLTStd-Heavy.otf);
+}
+
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../storage/font/avenir/AvenirLTStd-Roman.otf);
+}
